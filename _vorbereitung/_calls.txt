@@ -17,6 +17,5 @@ source kardinalitaet_n_m_I\03a_n-m_select.sql
 
 -- n:m II
 source kardinalitaet_n_m_II\03_1-1_n-m.sql
-source kardinalitaet_n_m_II\03a_1-1_n-m_select.sql
 source kardinalitaet_n_m_II\03b_1-1_n-m_select.sql
-
+source kardinalitaet_n_m_II\03a_1-1_n-m_select.sql
