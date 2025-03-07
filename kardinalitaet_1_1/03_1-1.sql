@@ -32,12 +32,12 @@ SELECT * FROM design.cats;
 
 
 -- Detailtabelle: Verbindung zur MT über Fremdschlüssel
-CREATE TABLE design.servants
+CREATE TABLE IF NOT EXISTS design.servants
 (
   id           INT         NOT NULL AUTO_INCREMENT COMMENT 'PK',
   servant_name VARCHAR(45) NOT NULL COMMENT 'Dienernamen',
   yrs_served   TINYINT     NOT NULL COMMENT 'Jahre gedient',
-  id           INT         NOT NULL COMMENT 'FK',
+  cats_id      INT         NOT NULL COMMENT 'FK',
   PRIMARY KEY (id)
 ) COMMENT 'Diener';
 

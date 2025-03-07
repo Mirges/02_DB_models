@@ -4,13 +4,13 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -125.1912,
-    "scrollLeft": -112.4959,
-    "zoomLevel": 0.85,
+    "scrollTop": 0,
+    "scrollLeft": -98.404,
+    "zoomLevel": 1,
     "show": 511,
     "database": 4,
     "databaseName": "design",
-    "canvasType": "settings",
+    "canvasType": "ERD",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -40,7 +40,8 @@
     "indexIds": [],
     "memoIds": [
       "hSXnVPMwTNLIdgLloRfQn",
-      "Zzt6XGgVULbvNVvcDaLdh"
+      "Zzt6XGgVULbvNVvcDaLdh",
+      "Q7GCKYGi3_uKsGIMVga_Q"
     ]
   },
   "collections": {
@@ -520,18 +521,34 @@
       },
       "Zzt6XGgVULbvNVvcDaLdh": {
         "id": "Zzt6XGgVULbvNVvcDaLdh",
-        "value": "Detailtabelle\n(enthält PK Primary Key der Mastertabelle als FK Foreign Key)",
+        "value": "Detailtabelle\n(PK  der Mastertabelle als FK)",
         "ui": {
           "x": 1000,
           "y": 290,
           "zIndex": 159,
-          "width": 154,
+          "width": 222,
           "height": 100,
           "color": ""
         },
         "meta": {
-          "updateAt": 1741337788152,
+          "updateAt": 1741342587037,
           "createAt": 1741336209842
+        }
+      },
+      "Q7GCKYGi3_uKsGIMVga_Q": {
+        "id": "Q7GCKYGi3_uKsGIMVga_Q",
+        "value": "PK = Primary Key\nFk = Foreign Key",
+        "ui": {
+          "x": 220.5834,
+          "y": -19.6079,
+          "zIndex": 160,
+          "width": 116,
+          "height": 100,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1741344986156,
+          "createAt": 1741342549913
         }
       }
     }
@@ -740,7 +757,15 @@
       1741336209841,
       -1,
       {
-        "value": 1741336277385
+        "value": 1741342584230
+      }
+    ],
+    "Q7GCKYGi3_uKsGIMVga_Q": [
+      "memoEntities",
+      1741342549911,
+      -1,
+      {
+        "value": 1741342560143
       }
     ]
   }

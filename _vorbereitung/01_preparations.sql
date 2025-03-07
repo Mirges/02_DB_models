@@ -1,3 +1,5 @@
+\! cls
+
 -- Vorbereitung DB
 
 DROP DATABASE IF EXISTS design;
