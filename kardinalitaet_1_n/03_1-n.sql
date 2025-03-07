@@ -1,8 +1,9 @@
 \! cls
+
 -- Vorbereitung
 
-DROP TABLE IF EXISTS kittens;
-DROP TABLE IF EXISTS catmoms;
+DROP TABLE IF EXISTS design.kittens;
+DROP TABLE IF EXISTS design.catmoms;
 
 -- MT: cats
 CREATE TABLE IF NOT EXISTS design.catmoms
@@ -17,8 +18,8 @@ CREATE TABLE IF NOT EXISTS design.catmoms
 DESCRIBE design.catmoms;
 
 -- MT: Inserts
-INSERT INTO catmoms (id, cat_name, fur_color) VALUES (DEFAULT, "Grizabella", "white");
-INSERT INTO catmoms (id, cat_name, fur_color) VALUES (DEFAULT, "Mausi", "striped");
+INSERT INTO design.catmoms (id, cat_name, fur_color) VALUES (DEFAULT, "Grizabella", "white");
+INSERT INTO design.catmoms (id, cat_name, fur_color) VALUES (DEFAULT, "Mausi", "striped");
 
 -- MT: Inhalte
 SELECT * FROM design.catmoms;
@@ -42,12 +43,11 @@ ALTER TABLE design.kittens
 DESCRIBE design.kittens;
 
 -- DT: Inserts
-INSERT INTO kittens (id, kitten_name, fur_color, catmoms_id) VALUES (DEFAULT, "Grizzi_1", "white", 1);
-INSERT INTO kittens (id, kitten_name, fur_color, catmoms_id) VALUES (DEFAULT, "Grizzi_2", "white", 1);
-INSERT INTO kittens (id, kitten_name, fur_color, catmoms_id) VALUES (DEFAULT, "Mausini", "striped", 2);
+INSERT INTO design.kittens (id, kitten_name, fur_color, catmoms_id) VALUES 
+(DEFAULT, "Grizzi_1", "white", 1),
+(DEFAULT, "Grizzi_2", "white", 1),
+(DEFAULT, "Mausini", "striped", 2);
 
 -- DT: Inhalte
 SELECT * FROM design.kittens;
-
-
 
