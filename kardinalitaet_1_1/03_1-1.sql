@@ -1,9 +1,9 @@
 \! cls
 
 -- Vorbereitungen
+DROP TABLE IF EXISTS design.purchases;
 DROP TABLE IF EXISTS design.servants;
 DROP TABLE IF EXISTS design.cats;
-
 
 
 -- Mastertabelle (MT): unverändert
