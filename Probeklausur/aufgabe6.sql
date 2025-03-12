@@ -19,11 +19,10 @@ VALUES  ('Mueller', 'Peter', 12991, 'Berlin'),
         ('Ay', 'Yildiz', 63325, 'Langen'),
         ('Sommer', 'Petra', 70137, 'Stuttgart');
 
-DESCRIBE design.addressbook;
 SELECT 
     nachname AS 'Name',
     vorname AS 'Vorname',
     plz AS 'Postleitzahl',
     ort AS 'Ort'
-FROM design.addressbook
-WHERE vorname LIKE "Pet%";
+FROM design.addressbook;
+-- WHERE vorname LIKE "Pet%";
