@@ -1,0 +1,2 @@
+source Probeklausur\aufgabe4.sql
+source Probeklausur\aufgabe6.sql
