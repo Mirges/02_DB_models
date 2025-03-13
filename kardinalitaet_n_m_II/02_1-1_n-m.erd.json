@@ -154,6 +154,25 @@
           "updateAt": 1724409698071,
           "createAt": 1724409563460
         }
+      },
+      "NlZMQ7GRKK7Tw9wW9cmYe": {
+        "id": "NlZMQ7GRKK7Tw9wW9cmYe",
+        "name": "",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 350,
+          "y": 360,
+          "zIndex": 90,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1741852488936,
+          "createAt": 1741852486212
+        }
       }
     },
     "tableColumnEntities": {
@@ -506,56 +525,7 @@
     },
     "indexEntities": {},
     "indexColumnEntities": {},
-    "memoEntities": {
-      "aklGdG4fVr5eJqvlIzYHa": {
-        "id": "aklGdG4fVr5eJqvlIzYHa",
-        "value": "Mastertabelle 1",
-        "ui": {
-          "x": 19,
-          "y": 200,
-          "zIndex": 94,
-          "width": 116,
-          "height": 100,
-          "color": ""
-        },
-        "meta": {
-          "updateAt": 1724319786478,
-          "createAt": 1724319779868
-        }
-      },
-      "xU-VtCgDVVGev7NPiIBT0": {
-        "id": "xU-VtCgDVVGev7NPiIBT0",
-        "value": "Mastertabelle 2",
-        "ui": {
-          "x": 583,
-          "y": 191,
-          "zIndex": 100,
-          "width": 116,
-          "height": 100,
-          "color": ""
-        },
-        "meta": {
-          "updateAt": 1724319804800,
-          "createAt": 1724319792202
-        }
-      },
-      "lksSqs-MQNgo2auMyvHwl": {
-        "id": "lksSqs-MQNgo2auMyvHwl",
-        "value": "Verbindungstabelle",
-        "ui": {
-          "x": 311,
-          "y": 373,
-          "zIndex": 106,
-          "width": 116,
-          "height": 100,
-          "color": ""
-        },
-        "meta": {
-          "updateAt": 1724319929450,
-          "createAt": 1724319808642
-        }
-      }
-    }
+    "memoEntities": {}
   },
   "lww": {
     "dIo5UPTBrpMFBVoeqKD3j": [
@@ -653,30 +623,6 @@
         "name": 1724319757931
       }
     ],
-    "aklGdG4fVr5eJqvlIzYHa": [
-      "memoEntities",
-      1724319779861,
-      1724409530724,
-      {
-        "value": 1724319786477
-      }
-    ],
-    "xU-VtCgDVVGev7NPiIBT0": [
-      "memoEntities",
-      1724319792201,
-      1724409533211,
-      {
-        "value": 1724319799784
-      }
-    ],
-    "lksSqs-MQNgo2auMyvHwl": [
-      "memoEntities",
-      1724319808642,
-      1724409531892,
-      {
-        "value": 1724319818852
-      }
-    ],
     "IgKcp1maAokqkFs5dKCKa": [
       "tableColumnEntities",
       1724319867042,
@@ -772,6 +718,12 @@
       "relationshipEntities",
       1724409687394,
       -1,
+      {}
+    ],
+    "NlZMQ7GRKK7Tw9wW9cmYe": [
+      "tableEntities",
+      1741852486211,
+      1741852491683,
       {}
     ]
   }

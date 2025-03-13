@@ -5,9 +5,9 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -2,
+    "scrollLeft": -100,
     "zoomLevel": 1,
-    "show": 511,
+    "show": 503,
     "database": 4,
     "databaseName": "",
     "canvasType": "ERD",
@@ -251,7 +251,7 @@
           "columnIds": [
             "GwOsyJ5g43_amvB5ibzo6"
           ],
-          "x": 423,
+          "x": 389,
           "y": 228,
           "direction": 8
         },
@@ -260,7 +260,7 @@
           "columnIds": [
             "SJuodEWUymqPnfPjxGDZF"
           ],
-          "x": 423.5,
+          "x": 389.5,
           "y": 445,
           "direction": 4
         },
